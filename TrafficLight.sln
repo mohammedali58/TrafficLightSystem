@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLight", "TrafficLight\TrafficLight.csproj", "{CBD51C8C-4C46-4FFC-B6EC-D22ECCCD4798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C7A5F0DF-5381-4D2D-84E0-3036AE8DF08D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3CD5362B-9755-4E9D-ABEA-93452AF32962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLight.Tests", "TrafficLight.Tests\TrafficLight.Tests.csproj", "{BB922F17-C268-4FDC-9160-152DBD70C0A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBD51C8C-4C46-4FFC-B6EC-D22ECCCD4798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD51C8C-4C46-4FFC-B6EC-D22ECCCD4798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD51C8C-4C46-4FFC-B6EC-D22ECCCD4798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD51C8C-4C46-4FFC-B6EC-D22ECCCD4798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB922F17-C268-4FDC-9160-152DBD70C0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB922F17-C268-4FDC-9160-152DBD70C0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB922F17-C268-4FDC-9160-152DBD70C0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB922F17-C268-4FDC-9160-152DBD70C0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBD51C8C-4C46-4FFC-B6EC-D22ECCCD4798} = {C7A5F0DF-5381-4D2D-84E0-3036AE8DF08D}
+		{BB922F17-C268-4FDC-9160-152DBD70C0A1} = {3CD5362B-9755-4E9D-ABEA-93452AF32962}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88F49539-5886-4BCA-B755-D93E9E1A47CA}
+	EndGlobalSection
+EndGlobal

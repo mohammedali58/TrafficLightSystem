@@ -1,0 +1,23 @@
+<h1>Traffic Light</h1>
+
+<div>
+    <img [src]="imageUrl" alt="NO IMG" width="100">
+    <button (click)="pushPadestrianButton()">
+        <img src="/assets/images/Padestrian Button.jpg" width="50" alt="Padestrian Button">
+    </button>
+    <p>
+        Current color: <b>{{trafficLightState?.color}}</b> <br>
+        Seconds Elapsed: <b>{{trafficLightState?.secondsElapsed}}</b>
+    </p>
+</div>
+<div>
+    <button class="btn btn-success" (click)="startTrafficLight()">Start</button>
+</div>
+<br>
+<div>
+    <p>
+        RedMinSeconds: <b>{{trafficLightOptions?.redMinSeconds}}</b> seconds <br>
+        GreenMinSeconds: <b>{{trafficLightOptions?.greenMinSeconds}}</b> seconds <br>
+        GreenMaxSeconds: <b>{{trafficLightOptions?.greenMaxSeconds}}</b> seconds
+    </p>
+</div>
